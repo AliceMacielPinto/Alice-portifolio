@@ -1,0 +1,222 @@
+body{
+	background-color: #fff;
+}
+.menu {
+	width: 100%;
+	height: 170px;
+	background-color: #2E2C30;
+}
+nav {
+position: absolute;
+width:50%;
+height: 88px;
+left: 40%;
+top: 12%;
+}
+nav li {
+		display: inline;
+	margin: 0 5px 0 15px;
+}
+nav a {
+	font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+/* or 162% */
+color: #ffffff;
+}
+a:link 
+{ 
+ text-decoration:none; 
+} 
+nav a:hover {
+	color: #F26C7F;
+	text-decoration: underline;
+}
+.logo{
+	width: 10%;
+
+	position: absolute;
+	left: 5%;
+	top: 2%;
+}
+.btn {
+/*posição*/
+	position: absolute;
+	width: 132px;
+	height: 43px;
+	left: 82%;
+	top: 9.5%;
+/*botão estilo*/
+	background:#FFD819;
+	box-shadow: 5px 4px 8px 2px rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+}
+button p {
+	position: absolute;
+	width: 172px;
+	height: 88px;
+	left: 32%;
+	top: -60%;
+/*texto*/
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 26px;
+	/* or 186% */
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #000;
+}
+.title-principal {
+	font-size: 40px;
+	text-align: center;
+}
+.tittle{
+	position: absolute;
+	width: 672px;
+	height: 192px;
+	left: 5%;
+	top: 50%;
+
+	font-family:Arial Rounded MT;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: justify;
+
+	/* or 38% */
+
+	color: #03045E;
+}
+.sub-tittle {
+	position: absolute;
+	width: 655px;
+	height: 89px;
+	left: 5%;
+	top: 67%;
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 26px;
+	/* or 162% */
+
+	text-align: justify;
+
+	color: #2E2C30;
+}
+.img1 {
+	width: 27%;
+
+	position: absolute;
+	left: 60%;
+	top: 49%;
+}
+.tittle2{
+	position: absolute;
+	width: 672px;
+	height: 192px;
+	left: 5%;
+	top: 90%;
+
+	font-family:Arial Rounded MT;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: justify;
+
+	/* or 38% */
+
+	color: #03045E;
+}
+.sub-tittle2 {
+	position: absolute;
+	width: 655px;
+	height: 89px;
+	left: 5%;
+	top: 102%;
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 26px;
+	/* or 162% */
+
+	text-align: justify;
+
+	color: #2E2C30;
+}
+.img2 {
+	width: 27%;
+	height: 30%;
+
+	position: absolute;
+	left: 60%;
+	top: 89%;
+}
+.box-footer {
+	position: absolute;
+	width: 100%;
+	height: 232px;
+	left: 0px;
+	top: 140%;
+
+	background: #01497C;
+
+}
+.logo-footer {
+	position: absolute;
+	left: 10%;
+	top: 10%;
+	width: 10%;
+}
+.text-footer {
+position: absolute;
+left: 11%;
+top: 65%;
+
+font-family: Arial Rounded MT;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 26px;
+/* or 186% */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+.estado {
+font-family:  Arial Rounded MT;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+color: #ffffff;
+
+position: absolute;
+top: 25%;
+left: 65%;
+}
+.text-footer2 {
+position: absolute;
+top: 35%;
+left: 65%;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 26px;
+/* or 186% */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}

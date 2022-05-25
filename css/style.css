@@ -1,0 +1,247 @@
+body{
+	background-color:#FEFAE0;
+}
+.banner {
+	width: 100%;
+	opacity: 0.3;
+}
+.text1 {
+	position: absolute;
+	width: 339px;
+	height: 276px;
+	left: 65%;
+	top: 27%;
+
+	font-family: Arial Rounded MT;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 26px;
+	/* or 9% */
+
+	display: flex;
+	align-items: center;
+
+	color: #A5A58D;
+}
+.text2{
+	position: absolute;
+	width: 472px;
+	height: 192px;
+	left: 55%;
+	top: 48%;
+
+	font-family:Arial Rounded MT;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 80px;
+
+	/* or 38% */
+
+	color: #CB997E;
+}
+.text3 {
+	position: absolute;
+	width: 455px;
+	height: 89px;
+	left: 62%;
+	top: 70%;
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	/* or 162% */
+
+	text-align: justify;
+
+	color: #DDBEA9;
+}
+.sobre {
+    width: 40%;
+    position: absolute;
+    top: 100%;
+    left: 10%;
+}
+.text-sobre {
+    color: #CB997E;
+    font-family: Arial Rounded MT;
+}
+.eu {
+    color: #6B705C;
+    text-align: justify;
+}
+.educacao {
+    position: absolute;
+    top: 145%;
+    left: 8%;
+    width: 40%;
+    height: 35%;
+}
+.detail { 
+	width: 80%;
+    height: 17%;
+    position: relative;
+    left: 10%;
+     background-color: #ffffff;
+     border-radius: 22px;
+     background-color: #CB997E;
+ }
+.text-educacao {
+	font-family: Arial Rounded MT;
+    text-align: center;
+    color: #FFE8D6;
+    font-size: 30px;
+}
+.hr {
+    width: 70%;
+    background-color: #3f4238;
+}
+.educacao1 {
+	font-family: Arial Rounded MT;
+    color:#6b705c;
+    text-align: center;
+    font-size: 13px;
+}
+.detail2 { 
+	width: 200px;
+    height: 40px;
+    position: relative;
+    left: 10%;
+     background-color: #ffffff;
+     border-radius: 22px;
+     background-color: #CB997E;
+ }
+.cursos {
+    position: absolute;
+    top: 180%;
+    left: 8%;
+    width: 40%;
+    height: 82%;
+}
+.text-curso {
+    text-align: center;
+    color: #FFE8D6;
+    font-family: Arial Rounded MT;
+}
+.curso-box {
+	width: 500px;
+    height:95px;
+    position: relative;
+    left: 20%;
+     background-color: #DDBEA9;
+     border-radius: 22px;
+
+}
+.educacao2 {
+    color:#6b705c;
+    text-align: left;
+    font-size: 16px;
+    position: relative;
+    top: 18%;
+    left: 10%;
+}
+.projetos {
+    position: absolute;
+    top: 145%;
+    left: 53%;
+    width: 40%;
+    height: 35%;
+}
+.idiomas{
+	position: absolute;
+	top: 180%;
+	left: 55%;
+}
+.idioma-box {
+	width: 400px;
+    height:55px;
+    position: relative;
+    left: 20%;
+     background-color: #DDBEA9;
+     border-radius: 22px;
+
+}
+.projetos-box {
+	width: 400px;
+    height:40px;
+    position: relative;
+    left: 20%;
+     background-color: #DDBEA9;
+     border-radius: 22px;
+
+}
+.meusprojetos{
+	position: absolute;
+	top: 220%;
+	left: 55%;
+}
+.educacao3 {
+    color:#6b705c;
+    text-align: left;
+    font-size: 18px;
+    position: relative;
+    top: 18%;
+    left: 10%;
+}
+a:link 
+{ 
+ text-decoration:none; 
+}
+.box-footer {
+	position: absolute;
+	width: 100%;
+	height: 170px;
+	left: 0px;
+	top: 380%;
+
+	background: #ddbea9;
+}
+
+.text-footer {
+ text-align: center;
+    color: #FFE8D6;
+}
+.email {
+	position: absolute;
+	left: 15%;
+	color:#FEFAE0;
+    font-size: 15px;
+}
+.email-img {
+width: 3%;
+position: absolute;
+left: 11%;
+top: 50%;
+}
+.telefone {
+position: absolute;
+	left: 45%;
+	color:#FEFAE0;
+    font-size: 15px;
+}
+.telefone-img {
+width: 3%;
+position: absolute;
+left: 41%;
+top: 50%;
+}
+.instagram {
+position: absolute;
+	left: 75%;
+	color:#FEFAE0;
+    font-size: 15px;
+}
+.instagram-img {
+width: 3%;
+position: absolute;
+left: 71%;
+top: 50%;
+}
+.img-sobre {
+	width: 30%;
+	position: absolute;
+	top: 100%;
+    left: 60%
+}

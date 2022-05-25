@@ -1,0 +1,72 @@
+body{
+	background-color: #2E2C30;
+		color: #ffffff;
+
+}
+.card-title2{
+	color: #F26C7F;
+}
+.nav2 {
+position: absolute;
+width:50%;
+height: 88px;
+left: 38%;
+top: 10%;
+}
+.nav2 li {
+		display: inline;
+	margin: 0 5px 0 15px;
+}
+.nav2 a {
+	font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+/* or 162% */
+color: #ffffff;
+}
+a:link 
+{ 
+ text-decoration:none; 
+} 
+.nav2 a:hover {
+	color: #F26C7F;
+	text-decoration: underline;
+}
+.logo{
+	width: 8%;
+
+	position: absolute;
+	left: 5%;
+	top: 2%;
+}
+.btn2 {
+/*posição*/
+	position: absolute;
+	width: 132px;
+	height: 43px;
+	left: 82%;
+	top: 8%;
+/*botão estilo*/
+	background:#FFD819;
+	box-shadow: 5px 4px 8px 2px rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+}
+button p {
+	position: absolute;
+	width: 172px;
+	height: 88px;
+	left: 32%;
+	top: -60%;
+/*texto*/
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 26px;
+	/* or 186% */
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #000;
+}

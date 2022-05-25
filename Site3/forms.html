@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="shortcut icon" href="img/logo.png">
+	<title>Contato </title>
+	<link rel="stylesheet" type = "text/css" href = "estilo/estiloform.css" media="all"/>
+	<script src="validandoform.js"> </script>
+
+</head>
+	
+	<body>
+		<center><h1>Cadastro Usuário</h1>
+		
+		<form name="meu_form">
+			<label for="usuario">Usuário:</label>
+			<input  type="text"  id="usuarioid"  placeholder="Nome de Usuário"  required="required" name="usuario" />
+			<br>
+			<label for="nome">Nome</label> 
+			<input type="text" id="nomeid" placeholder="Nome Completo" required="required" name="nome" />
+			<br>
+			<label for="email">Email</label>
+			<input  type="email"  id="emailid"  placeholder="exemplo@exemplo.com.br" required="required" name="email" maxlength="60" size='65' />
+			<br>
+			<label for="endereco">Endereço</label>
+			<input     type="text"     id="enderecoid"     placeholder="Rua     ou     Avenida" required="required" name="endereco" />
+			<br>
+			<label for="cidade">Cidade</label>
+			<input type="text" id="cidadeid" placeholder="Nome da Cidade" required="required" name="cidade" />
+			<br>
+			<label for="estado">Estado (UF) </label>
+			<input type="text" id="estadoid" placeholder="UF do Estado" required="checarEmail()" name="estado" />
+			<br>
+			<label for="fone">Fone</label>
+			<input type="tel" id="foneid" placeholder="(xx)xxxx-xxxx" required="required" name="fone" />
+			<br>
+			<textarea id="textoid" name="texto" placeholder="Deixe sua opnião"></textarea>
+			<br>
+			<input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+		</form></center>
+	</body>
+</html>
